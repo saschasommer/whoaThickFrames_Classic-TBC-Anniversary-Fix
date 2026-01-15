@@ -3,6 +3,10 @@ A quick fix to get whoaThickFrames running for TBC Anniversary again (from https
 
 It's a quick-and-dirty fix and I'm not the main author.
 
+## How to install
+
+Download the code as zip and put **only the `whoaThickFrames_Classic` folder** in your Addons folder, **NOT** the entire zip's contents!
+
 ## What's working
 
 * player, target, focus, target of target, target of focus frames working
