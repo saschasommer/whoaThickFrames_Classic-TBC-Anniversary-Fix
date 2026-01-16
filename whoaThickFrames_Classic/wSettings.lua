@@ -12,7 +12,7 @@ local function SetDefaults()
 	cfg.largeAuraSize            = cfg.largeAuraSize            or 25
 	cfg.classColor               = cfg.classColor               or true
 	cfg.reactionColor            = cfg.reactionColor            or true
-	cfg.BlizzardReactionColor    = cfg.BlizzardReactionColor    or false
+	cfg.BlizzardReactionColor    = cfg.BlizzardReactionColor    or true
 	cfg.noClickFrame             = cfg.noClickFrame             or false
 	cfg.blueShaman               = cfg.blueShaman               or true
 	cfg.usePartyFrames           = cfg.usePartyFrames           or false
@@ -228,3 +228,4 @@ Minimap:SetScript("OnMouseWheel", function(self, delta)
 		self:SetZoom(zoom - 1)
 	end
 end)
+
